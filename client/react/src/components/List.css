@@ -1,0 +1,12 @@
+#list-container {
+  border-top: 1px solid gray;
+  margin-top: 20px;
+  padding: 2px;
+  min-height: 100px;
+}
+
+#delete-btn {
+  width: 100%;
+  min-width: 30px;
+  max-width: 70px;
+}

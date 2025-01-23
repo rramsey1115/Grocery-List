@@ -1,0 +1,20 @@
+{
+  "name": "grocery-list",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && cd react && npm run dev\" "
+  },
+  "author": "R Ramsey",
+  "license": "ISC",
+  "description": "grocey list test app",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "reactstrap": "^9.2.3"
+  }
+}
