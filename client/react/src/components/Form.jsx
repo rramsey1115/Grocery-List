@@ -36,7 +36,7 @@ export const Form = ({ getAndSetAllItems, items }) => {
             <input
               type="text"
               id="item-name"
-              maxLength={12}
+              maxLength={15}
               value={newItem.name}
               onChange={(e) => setNewItem({ ...newItem, name: e.target.value })}
               required
@@ -50,7 +50,7 @@ export const Form = ({ getAndSetAllItems, items }) => {
               type="text"
               id="item-description"
               value={newItem.details}
-              maxLength={12}
+              maxLength={15}
               onChange={(e) =>
                 setNewItem({ ...newItem, details: e.target.value })
               }
