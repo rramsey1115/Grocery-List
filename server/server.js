@@ -7,7 +7,7 @@ import bodyParser from "body-parser";
 
 import "./connection.js";
 
-import apiRoutes from "./routes/items.js";
+import itemRoutes from "./routes/items.js";
 
 const app = express();
 const port = process.env.PORT || 5050;
@@ -25,4 +25,4 @@ app.listen(port, () => {
 });
 
 // Routing for api - will go here to write specific data endpoints
-apiRoutes(app);
+itemRoutes(app);
